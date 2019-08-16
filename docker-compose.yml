@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  nats:
+    image: nats-streaming
+    command: --store FILE --dir /nats --file_compact_enabled  --max_msgs 0  --max_bytes 0
+    volumes:
+      - "./nats:/nats"
+    ports:
+      - "4222:4222"
+    networks:
+      - nats-dash
+networks:
+  nats-dash:

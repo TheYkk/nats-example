@@ -1,0 +1,11 @@
+{
+  "name": "nats-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "gitlab.com/theykk/nats-example",
+  "author": "TheYkk (Kaan Karakaya <yusufkaan142@gmail.com>)",
+  "license": "MIT",
+  "dependencies": {
+    "node-nats-streaming": "^0.2.6"
+  }
+}
